@@ -12,14 +12,14 @@ ___
 ### 2. Клонировать репозиторий
 
 ```bash
-    git clone https://github.com/ILarious/BeamBot
+git clone https://github.com/ILarious/BeamBot
 ```
 
 ### 3. Добавить переменные окружения
 Создаем файл .env в корневом репозитории проекта. В него необходимо написать строку:
 
 ```bash
-    TOKEN_API=тут-должен-быть-ваш-токен
+TOKEN_API=тут-должен-быть-ваш-токен
 ```
 
 ![image](https://github.com/ILarious/BeamBot/assets/98268609/57026c39-7cde-4454-b2cb-c641db558b33)
@@ -29,13 +29,13 @@ ___
 После создания и активации виртуального окружения, чтобы установить все зависимости, в консоль прописываем 
 
 ```bash
-    pip install -r requarement.txt
+pip install -r requarement.txt
 ```
     
 ___
 ## Запуск
 #### 1. Запускаем файл main.py через IDE или консоль.
 ```bash
-    python3 main.py
+py main.py
 ```
 #### 2. Переходим по ссылке к вашему боту (ссылка на бота находится в переписке с @BotFather) и пользуемся. 
